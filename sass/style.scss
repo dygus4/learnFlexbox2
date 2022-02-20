@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/*PHOTOS*/
+.img-1 {background-image: url('https://images.pexels.com/photos/11041568/pexels-photo-11041568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
+.img-2 {background-image: url('https://images.pexels.com/photos/11041568/pexels-photo-11041568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
+.img-3 {background-image: url('https://images.pexels.com/photos/11041568/pexels-photo-11041568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
+.img-4 {background-image: url('https://images.pexels.com/photos/11041568/pexels-photo-11041568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
+.img-5 {background-image: url('https://images.pexels.com/photos/11041568/pexels-photo-11041568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
+.img-6 {background-image: url('https://images.pexels.com/photos/11041568/pexels-photo-11041568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
+.img-7 {background-image: url('https://images.pexels.com/photos/11041568/pexels-photo-11041568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
+.img-8 {background-image: url('https://images.pexels.com/photos/11041568/pexels-photo-11041568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
+.img-9 {background-image: url('https://images.pexels.com/photos/11041568/pexels-photo-11041568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
+.img-10 {background-image: url('https://images.pexels.com/photos/11041568/pexels-photo-11041568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
+.img-11 {background-image: url('https://images.pexels.com/photos/11041568/pexels-photo-11041568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
+.img-12 {background-image: url('https://images.pexels.com/photos/11041568/pexels-photo-11041568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
+
+/*CODE*/
+body {
+    background-color: #353333;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 36px;
+}
+
+
+.element {
+    height: 90px;
+    margin: 5px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+}
+.inside-container, .flex-column, .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-1 {
+    flex: 1
+}
+.element-big {
+    height: 180px;
+}
+
+body:hover .element {
+    opacity: 0.3;
+}
+body .element:hover {
+    opacity: 1;
+    cursor: pointer;
+}
